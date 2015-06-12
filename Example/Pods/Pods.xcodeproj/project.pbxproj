@@ -9,50 +9,50 @@
 /* Begin PBXBuildFile section */
 		0D5C0448A0A93DB5A0F822D4 /* Pods-google-cloud-endpoints-client_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 157901352DE9007ED10CE37C /* Pods-google-cloud-endpoints-client_Tests-dummy.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		13848A38234D4D92E512D0B5 /* Pods-google-cloud-endpoints-client_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F1752BD3EA8E9AEF2BB15BE /* Pods-google-cloud-endpoints-client_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2C678F3C1B2A7805004CCAC3 /* GTLDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C678F101B2A7805004CCAC3 /* GTLDefines.h */; };
-		2C678F3D1B2A7805004CCAC3 /* GTLObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C678F111B2A7805004CCAC3 /* GTLObject.h */; };
-		2C678F3E1B2A7805004CCAC3 /* GTLObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C678F121B2A7805004CCAC3 /* GTLObject.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		2C678F3F1B2A7805004CCAC3 /* GTLQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C678F131B2A7805004CCAC3 /* GTLQuery.h */; };
-		2C678F401B2A7805004CCAC3 /* GTLQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C678F141B2A7805004CCAC3 /* GTLQuery.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		2C678F411B2A7805004CCAC3 /* GTLBatchQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C678F151B2A7805004CCAC3 /* GTLBatchQuery.h */; };
-		2C678F421B2A7805004CCAC3 /* GTLBatchQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C678F161B2A7805004CCAC3 /* GTLBatchQuery.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		2C678F431B2A7805004CCAC3 /* GTLService.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C678F171B2A7805004CCAC3 /* GTLService.h */; };
-		2C678F441B2A7805004CCAC3 /* GTLService.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C678F181B2A7805004CCAC3 /* GTLService.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		2C678F451B2A7805004CCAC3 /* GTLBatchResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C678F191B2A7805004CCAC3 /* GTLBatchResult.h */; };
-		2C678F461B2A7805004CCAC3 /* GTLBatchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C678F1A1B2A7805004CCAC3 /* GTLBatchResult.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		2C678F471B2A7805004CCAC3 /* GTLUploadParameters.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C678F1B1B2A7805004CCAC3 /* GTLUploadParameters.h */; };
-		2C678F481B2A7805004CCAC3 /* GTLUploadParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C678F1C1B2A7805004CCAC3 /* GTLUploadParameters.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		2C678F491B2A7805004CCAC3 /* GTLDateTime.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C678F1D1B2A7805004CCAC3 /* GTLDateTime.h */; };
-		2C678F4A1B2A7805004CCAC3 /* GTLDateTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C678F1E1B2A7805004CCAC3 /* GTLDateTime.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		2C678F4B1B2A7805004CCAC3 /* GTLErrorObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C678F1F1B2A7805004CCAC3 /* GTLErrorObject.h */; };
-		2C678F4C1B2A7805004CCAC3 /* GTLErrorObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C678F201B2A7805004CCAC3 /* GTLErrorObject.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		2C678F4D1B2A7805004CCAC3 /* GTLRuntimeCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C678F211B2A7805004CCAC3 /* GTLRuntimeCommon.h */; };
-		2C678F4E1B2A7805004CCAC3 /* GTLRuntimeCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C678F221B2A7805004CCAC3 /* GTLRuntimeCommon.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		2C678F4F1B2A7805004CCAC3 /* GTLFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C678F231B2A7805004CCAC3 /* GTLFramework.h */; };
-		2C678F501B2A7805004CCAC3 /* GTLFramework.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C678F241B2A7805004CCAC3 /* GTLFramework.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		2C678F511B2A7805004CCAC3 /* GTLJSONParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C678F251B2A7805004CCAC3 /* GTLJSONParser.h */; };
-		2C678F521B2A7805004CCAC3 /* GTLJSONParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C678F261B2A7805004CCAC3 /* GTLJSONParser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		2C678F531B2A7805004CCAC3 /* GTLTargetNamespace.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C678F271B2A7805004CCAC3 /* GTLTargetNamespace.h */; };
-		2C678F541B2A7805004CCAC3 /* GTLUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C678F281B2A7805004CCAC3 /* GTLUtilities.h */; };
-		2C678F551B2A7805004CCAC3 /* GTLUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C678F291B2A7805004CCAC3 /* GTLUtilities.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		2C678F561B2A7805004CCAC3 /* GTLBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C678F2A1B2A7805004CCAC3 /* GTLBase64.h */; };
-		2C678F571B2A7805004CCAC3 /* GTLBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C678F2B1B2A7805004CCAC3 /* GTLBase64.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		2C678F581B2A7805004CCAC3 /* GTMHTTPFetcherService.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C678F2C1B2A7805004CCAC3 /* GTMHTTPFetcherService.h */; };
-		2C678F591B2A7805004CCAC3 /* GTMHTTPFetcherService.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C678F2D1B2A7805004CCAC3 /* GTMHTTPFetcherService.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		2C678F5A1B2A7805004CCAC3 /* GTMHTTPFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C678F2E1B2A7805004CCAC3 /* GTMHTTPFetcher.h */; };
-		2C678F5B1B2A7805004CCAC3 /* GTMHTTPFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C678F2F1B2A7805004CCAC3 /* GTMHTTPFetcher.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		2C678F5C1B2A7805004CCAC3 /* GTMHTTPFetcherLogging.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C678F301B2A7805004CCAC3 /* GTMHTTPFetcherLogging.h */; };
-		2C678F5D1B2A7805004CCAC3 /* GTMHTTPFetcherLogging.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C678F311B2A7805004CCAC3 /* GTMHTTPFetcherLogging.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		2C678F5E1B2A7805004CCAC3 /* GTMHTTPFetchHistory.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C678F321B2A7805004CCAC3 /* GTMHTTPFetchHistory.h */; };
-		2C678F5F1B2A7805004CCAC3 /* GTMHTTPFetchHistory.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C678F331B2A7805004CCAC3 /* GTMHTTPFetchHistory.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		2C678F601B2A7805004CCAC3 /* GTMHTTPUploadFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C678F341B2A7805004CCAC3 /* GTMHTTPUploadFetcher.h */; };
-		2C678F611B2A7805004CCAC3 /* GTMHTTPUploadFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C678F351B2A7805004CCAC3 /* GTMHTTPUploadFetcher.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		2C678F621B2A7805004CCAC3 /* GTMGatherInputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C678F361B2A7805004CCAC3 /* GTMGatherInputStream.h */; };
-		2C678F631B2A7805004CCAC3 /* GTMGatherInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C678F371B2A7805004CCAC3 /* GTMGatherInputStream.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		2C678F641B2A7805004CCAC3 /* GTMMIMEDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C678F381B2A7805004CCAC3 /* GTMMIMEDocument.h */; };
-		2C678F651B2A7805004CCAC3 /* GTMMIMEDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C678F391B2A7805004CCAC3 /* GTMMIMEDocument.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		2C678F661B2A7805004CCAC3 /* GTMReadMonitorInputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C678F3A1B2A7805004CCAC3 /* GTMReadMonitorInputStream.h */; };
-		2C678F671B2A7805004CCAC3 /* GTMReadMonitorInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C678F3B1B2A7805004CCAC3 /* GTMReadMonitorInputStream.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2C678F951B2A7C42004CCAC3 /* GTLBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C678F691B2A7C42004CCAC3 /* GTLBase64.h */; };
+		2C678F961B2A7C42004CCAC3 /* GTLBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C678F6A1B2A7C42004CCAC3 /* GTLBase64.m */; };
+		2C678F971B2A7C42004CCAC3 /* GTLBatchQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C678F6B1B2A7C42004CCAC3 /* GTLBatchQuery.h */; };
+		2C678F981B2A7C42004CCAC3 /* GTLBatchQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C678F6C1B2A7C42004CCAC3 /* GTLBatchQuery.m */; };
+		2C678F991B2A7C42004CCAC3 /* GTLBatchResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C678F6D1B2A7C42004CCAC3 /* GTLBatchResult.h */; };
+		2C678F9A1B2A7C42004CCAC3 /* GTLBatchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C678F6E1B2A7C42004CCAC3 /* GTLBatchResult.m */; };
+		2C678F9B1B2A7C42004CCAC3 /* GTLDateTime.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C678F6F1B2A7C42004CCAC3 /* GTLDateTime.h */; };
+		2C678F9C1B2A7C42004CCAC3 /* GTLDateTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C678F701B2A7C42004CCAC3 /* GTLDateTime.m */; };
+		2C678F9D1B2A7C42004CCAC3 /* GTLDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C678F711B2A7C42004CCAC3 /* GTLDefines.h */; };
+		2C678F9E1B2A7C42004CCAC3 /* GTLErrorObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C678F721B2A7C42004CCAC3 /* GTLErrorObject.h */; };
+		2C678F9F1B2A7C42004CCAC3 /* GTLErrorObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C678F731B2A7C42004CCAC3 /* GTLErrorObject.m */; };
+		2C678FA01B2A7C42004CCAC3 /* GTLFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C678F741B2A7C42004CCAC3 /* GTLFramework.h */; };
+		2C678FA11B2A7C42004CCAC3 /* GTLFramework.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C678F751B2A7C42004CCAC3 /* GTLFramework.m */; };
+		2C678FA21B2A7C42004CCAC3 /* GTLJSONParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C678F761B2A7C42004CCAC3 /* GTLJSONParser.h */; };
+		2C678FA31B2A7C42004CCAC3 /* GTLJSONParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C678F771B2A7C42004CCAC3 /* GTLJSONParser.m */; };
+		2C678FA41B2A7C42004CCAC3 /* GTLObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C678F781B2A7C42004CCAC3 /* GTLObject.h */; };
+		2C678FA51B2A7C42004CCAC3 /* GTLObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C678F791B2A7C42004CCAC3 /* GTLObject.m */; };
+		2C678FA61B2A7C42004CCAC3 /* GTLQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C678F7A1B2A7C42004CCAC3 /* GTLQuery.h */; };
+		2C678FA71B2A7C42004CCAC3 /* GTLQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C678F7B1B2A7C42004CCAC3 /* GTLQuery.m */; };
+		2C678FA81B2A7C42004CCAC3 /* GTLRuntimeCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C678F7C1B2A7C42004CCAC3 /* GTLRuntimeCommon.h */; };
+		2C678FA91B2A7C42004CCAC3 /* GTLRuntimeCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C678F7D1B2A7C42004CCAC3 /* GTLRuntimeCommon.m */; };
+		2C678FAA1B2A7C42004CCAC3 /* GTLService.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C678F7E1B2A7C42004CCAC3 /* GTLService.h */; };
+		2C678FAB1B2A7C42004CCAC3 /* GTLService.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C678F7F1B2A7C42004CCAC3 /* GTLService.m */; };
+		2C678FAC1B2A7C42004CCAC3 /* GTLTargetNamespace.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C678F801B2A7C42004CCAC3 /* GTLTargetNamespace.h */; };
+		2C678FAD1B2A7C42004CCAC3 /* GTLUploadParameters.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C678F811B2A7C42004CCAC3 /* GTLUploadParameters.h */; };
+		2C678FAE1B2A7C42004CCAC3 /* GTLUploadParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C678F821B2A7C42004CCAC3 /* GTLUploadParameters.m */; };
+		2C678FAF1B2A7C42004CCAC3 /* GTLUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C678F831B2A7C42004CCAC3 /* GTLUtilities.h */; };
+		2C678FB01B2A7C42004CCAC3 /* GTLUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C678F841B2A7C42004CCAC3 /* GTLUtilities.m */; };
+		2C678FB11B2A7C42004CCAC3 /* GTMGatherInputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C678F851B2A7C42004CCAC3 /* GTMGatherInputStream.h */; };
+		2C678FB21B2A7C42004CCAC3 /* GTMGatherInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C678F861B2A7C42004CCAC3 /* GTMGatherInputStream.m */; };
+		2C678FB31B2A7C42004CCAC3 /* GTMHTTPFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C678F871B2A7C42004CCAC3 /* GTMHTTPFetcher.h */; };
+		2C678FB41B2A7C42004CCAC3 /* GTMHTTPFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C678F881B2A7C42004CCAC3 /* GTMHTTPFetcher.m */; };
+		2C678FB51B2A7C42004CCAC3 /* GTMHTTPFetcherLogging.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C678F891B2A7C42004CCAC3 /* GTMHTTPFetcherLogging.h */; };
+		2C678FB61B2A7C42004CCAC3 /* GTMHTTPFetcherLogging.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C678F8A1B2A7C42004CCAC3 /* GTMHTTPFetcherLogging.m */; };
+		2C678FB71B2A7C42004CCAC3 /* GTMHTTPFetcherService.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C678F8B1B2A7C42004CCAC3 /* GTMHTTPFetcherService.h */; };
+		2C678FB81B2A7C42004CCAC3 /* GTMHTTPFetcherService.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C678F8C1B2A7C42004CCAC3 /* GTMHTTPFetcherService.m */; };
+		2C678FB91B2A7C42004CCAC3 /* GTMHTTPFetchHistory.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C678F8D1B2A7C42004CCAC3 /* GTMHTTPFetchHistory.h */; };
+		2C678FBA1B2A7C42004CCAC3 /* GTMHTTPFetchHistory.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C678F8E1B2A7C42004CCAC3 /* GTMHTTPFetchHistory.m */; };
+		2C678FBB1B2A7C42004CCAC3 /* GTMHTTPUploadFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C678F8F1B2A7C42004CCAC3 /* GTMHTTPUploadFetcher.h */; };
+		2C678FBC1B2A7C42004CCAC3 /* GTMHTTPUploadFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C678F901B2A7C42004CCAC3 /* GTMHTTPUploadFetcher.m */; };
+		2C678FBD1B2A7C42004CCAC3 /* GTMMIMEDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C678F911B2A7C42004CCAC3 /* GTMMIMEDocument.h */; };
+		2C678FBE1B2A7C42004CCAC3 /* GTMMIMEDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C678F921B2A7C42004CCAC3 /* GTMMIMEDocument.m */; };
+		2C678FBF1B2A7C42004CCAC3 /* GTMReadMonitorInputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C678F931B2A7C42004CCAC3 /* GTMReadMonitorInputStream.h */; };
+		2C678FC01B2A7C42004CCAC3 /* GTMReadMonitorInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C678F941B2A7C42004CCAC3 /* GTMReadMonitorInputStream.m */; };
 		3D296730598DDBBA14AB06CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE3F12AF72589C092C425822 /* Foundation.framework */; };
 		70CE004832A6EC318BDF7BF8 /* Pods-google-cloud-endpoints-client_Tests-google-cloud-endpoints-client-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 48860E4C16A6D8FF197CCD92 /* Pods-google-cloud-endpoints-client_Tests-google-cloud-endpoints-client-dummy.m */; };
 		C96D1AB73F8A7122D461CAA9 /* google-cloud-endpoints-client.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CC56A0657445906AD2F81CC9 /* google-cloud-endpoints-client.bundle */; };
@@ -81,50 +81,50 @@
 		0E6D658E4804446A577BC3B0 /* Pods-google-cloud-endpoints-client_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-google-cloud-endpoints-client_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		1272A18EBA3B66CBDCCAC7C8 /* google_cloud_endpoints_client.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = google_cloud_endpoints_client.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		157901352DE9007ED10CE37C /* Pods-google-cloud-endpoints-client_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-google-cloud-endpoints-client_Tests-dummy.m"; sourceTree = "<group>"; };
-		2C678F101B2A7805004CCAC3 /* GTLDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLDefines.h; sourceTree = "<group>"; };
-		2C678F111B2A7805004CCAC3 /* GTLObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLObject.h; sourceTree = "<group>"; };
-		2C678F121B2A7805004CCAC3 /* GTLObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLObject.m; sourceTree = "<group>"; };
-		2C678F131B2A7805004CCAC3 /* GTLQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLQuery.h; sourceTree = "<group>"; };
-		2C678F141B2A7805004CCAC3 /* GTLQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLQuery.m; sourceTree = "<group>"; };
-		2C678F151B2A7805004CCAC3 /* GTLBatchQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLBatchQuery.h; sourceTree = "<group>"; };
-		2C678F161B2A7805004CCAC3 /* GTLBatchQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLBatchQuery.m; sourceTree = "<group>"; };
-		2C678F171B2A7805004CCAC3 /* GTLService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLService.h; sourceTree = "<group>"; };
-		2C678F181B2A7805004CCAC3 /* GTLService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLService.m; sourceTree = "<group>"; };
-		2C678F191B2A7805004CCAC3 /* GTLBatchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLBatchResult.h; sourceTree = "<group>"; };
-		2C678F1A1B2A7805004CCAC3 /* GTLBatchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLBatchResult.m; sourceTree = "<group>"; };
-		2C678F1B1B2A7805004CCAC3 /* GTLUploadParameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLUploadParameters.h; sourceTree = "<group>"; };
-		2C678F1C1B2A7805004CCAC3 /* GTLUploadParameters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLUploadParameters.m; sourceTree = "<group>"; };
-		2C678F1D1B2A7805004CCAC3 /* GTLDateTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLDateTime.h; sourceTree = "<group>"; };
-		2C678F1E1B2A7805004CCAC3 /* GTLDateTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLDateTime.m; sourceTree = "<group>"; };
-		2C678F1F1B2A7805004CCAC3 /* GTLErrorObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLErrorObject.h; sourceTree = "<group>"; };
-		2C678F201B2A7805004CCAC3 /* GTLErrorObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLErrorObject.m; sourceTree = "<group>"; };
-		2C678F211B2A7805004CCAC3 /* GTLRuntimeCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLRuntimeCommon.h; sourceTree = "<group>"; };
-		2C678F221B2A7805004CCAC3 /* GTLRuntimeCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLRuntimeCommon.m; sourceTree = "<group>"; };
-		2C678F231B2A7805004CCAC3 /* GTLFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLFramework.h; sourceTree = "<group>"; };
-		2C678F241B2A7805004CCAC3 /* GTLFramework.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLFramework.m; sourceTree = "<group>"; };
-		2C678F251B2A7805004CCAC3 /* GTLJSONParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLJSONParser.h; sourceTree = "<group>"; };
-		2C678F261B2A7805004CCAC3 /* GTLJSONParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLJSONParser.m; sourceTree = "<group>"; };
-		2C678F271B2A7805004CCAC3 /* GTLTargetNamespace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLTargetNamespace.h; sourceTree = "<group>"; };
-		2C678F281B2A7805004CCAC3 /* GTLUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLUtilities.h; sourceTree = "<group>"; };
-		2C678F291B2A7805004CCAC3 /* GTLUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLUtilities.m; sourceTree = "<group>"; };
-		2C678F2A1B2A7805004CCAC3 /* GTLBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLBase64.h; sourceTree = "<group>"; };
-		2C678F2B1B2A7805004CCAC3 /* GTLBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLBase64.m; sourceTree = "<group>"; };
-		2C678F2C1B2A7805004CCAC3 /* GTMHTTPFetcherService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMHTTPFetcherService.h; sourceTree = "<group>"; };
-		2C678F2D1B2A7805004CCAC3 /* GTMHTTPFetcherService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMHTTPFetcherService.m; sourceTree = "<group>"; };
-		2C678F2E1B2A7805004CCAC3 /* GTMHTTPFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMHTTPFetcher.h; sourceTree = "<group>"; };
-		2C678F2F1B2A7805004CCAC3 /* GTMHTTPFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMHTTPFetcher.m; sourceTree = "<group>"; };
-		2C678F301B2A7805004CCAC3 /* GTMHTTPFetcherLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMHTTPFetcherLogging.h; sourceTree = "<group>"; };
-		2C678F311B2A7805004CCAC3 /* GTMHTTPFetcherLogging.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMHTTPFetcherLogging.m; sourceTree = "<group>"; };
-		2C678F321B2A7805004CCAC3 /* GTMHTTPFetchHistory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMHTTPFetchHistory.h; sourceTree = "<group>"; };
-		2C678F331B2A7805004CCAC3 /* GTMHTTPFetchHistory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMHTTPFetchHistory.m; sourceTree = "<group>"; };
-		2C678F341B2A7805004CCAC3 /* GTMHTTPUploadFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMHTTPUploadFetcher.h; sourceTree = "<group>"; };
-		2C678F351B2A7805004CCAC3 /* GTMHTTPUploadFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMHTTPUploadFetcher.m; sourceTree = "<group>"; };
-		2C678F361B2A7805004CCAC3 /* GTMGatherInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMGatherInputStream.h; sourceTree = "<group>"; };
-		2C678F371B2A7805004CCAC3 /* GTMGatherInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMGatherInputStream.m; sourceTree = "<group>"; };
-		2C678F381B2A7805004CCAC3 /* GTMMIMEDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMMIMEDocument.h; sourceTree = "<group>"; };
-		2C678F391B2A7805004CCAC3 /* GTMMIMEDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMMIMEDocument.m; sourceTree = "<group>"; };
-		2C678F3A1B2A7805004CCAC3 /* GTMReadMonitorInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMReadMonitorInputStream.h; sourceTree = "<group>"; };
-		2C678F3B1B2A7805004CCAC3 /* GTMReadMonitorInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMReadMonitorInputStream.m; sourceTree = "<group>"; };
+		2C678F691B2A7C42004CCAC3 /* GTLBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTLBase64.h; path = Classes/GTLBase64.h; sourceTree = "<group>"; };
+		2C678F6A1B2A7C42004CCAC3 /* GTLBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTLBase64.m; path = Classes/GTLBase64.m; sourceTree = "<group>"; };
+		2C678F6B1B2A7C42004CCAC3 /* GTLBatchQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTLBatchQuery.h; path = Classes/GTLBatchQuery.h; sourceTree = "<group>"; };
+		2C678F6C1B2A7C42004CCAC3 /* GTLBatchQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTLBatchQuery.m; path = Classes/GTLBatchQuery.m; sourceTree = "<group>"; };
+		2C678F6D1B2A7C42004CCAC3 /* GTLBatchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTLBatchResult.h; path = Classes/GTLBatchResult.h; sourceTree = "<group>"; };
+		2C678F6E1B2A7C42004CCAC3 /* GTLBatchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTLBatchResult.m; path = Classes/GTLBatchResult.m; sourceTree = "<group>"; };
+		2C678F6F1B2A7C42004CCAC3 /* GTLDateTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTLDateTime.h; path = Classes/GTLDateTime.h; sourceTree = "<group>"; };
+		2C678F701B2A7C42004CCAC3 /* GTLDateTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTLDateTime.m; path = Classes/GTLDateTime.m; sourceTree = "<group>"; };
+		2C678F711B2A7C42004CCAC3 /* GTLDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTLDefines.h; path = Classes/GTLDefines.h; sourceTree = "<group>"; };
+		2C678F721B2A7C42004CCAC3 /* GTLErrorObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTLErrorObject.h; path = Classes/GTLErrorObject.h; sourceTree = "<group>"; };
+		2C678F731B2A7C42004CCAC3 /* GTLErrorObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTLErrorObject.m; path = Classes/GTLErrorObject.m; sourceTree = "<group>"; };
+		2C678F741B2A7C42004CCAC3 /* GTLFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTLFramework.h; path = Classes/GTLFramework.h; sourceTree = "<group>"; };
+		2C678F751B2A7C42004CCAC3 /* GTLFramework.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTLFramework.m; path = Classes/GTLFramework.m; sourceTree = "<group>"; };
+		2C678F761B2A7C42004CCAC3 /* GTLJSONParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTLJSONParser.h; path = Classes/GTLJSONParser.h; sourceTree = "<group>"; };
+		2C678F771B2A7C42004CCAC3 /* GTLJSONParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTLJSONParser.m; path = Classes/GTLJSONParser.m; sourceTree = "<group>"; };
+		2C678F781B2A7C42004CCAC3 /* GTLObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTLObject.h; path = Classes/GTLObject.h; sourceTree = "<group>"; };
+		2C678F791B2A7C42004CCAC3 /* GTLObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTLObject.m; path = Classes/GTLObject.m; sourceTree = "<group>"; };
+		2C678F7A1B2A7C42004CCAC3 /* GTLQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTLQuery.h; path = Classes/GTLQuery.h; sourceTree = "<group>"; };
+		2C678F7B1B2A7C42004CCAC3 /* GTLQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTLQuery.m; path = Classes/GTLQuery.m; sourceTree = "<group>"; };
+		2C678F7C1B2A7C42004CCAC3 /* GTLRuntimeCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTLRuntimeCommon.h; path = Classes/GTLRuntimeCommon.h; sourceTree = "<group>"; };
+		2C678F7D1B2A7C42004CCAC3 /* GTLRuntimeCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTLRuntimeCommon.m; path = Classes/GTLRuntimeCommon.m; sourceTree = "<group>"; };
+		2C678F7E1B2A7C42004CCAC3 /* GTLService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTLService.h; path = Classes/GTLService.h; sourceTree = "<group>"; };
+		2C678F7F1B2A7C42004CCAC3 /* GTLService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTLService.m; path = Classes/GTLService.m; sourceTree = "<group>"; };
+		2C678F801B2A7C42004CCAC3 /* GTLTargetNamespace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTLTargetNamespace.h; path = Classes/GTLTargetNamespace.h; sourceTree = "<group>"; };
+		2C678F811B2A7C42004CCAC3 /* GTLUploadParameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTLUploadParameters.h; path = Classes/GTLUploadParameters.h; sourceTree = "<group>"; };
+		2C678F821B2A7C42004CCAC3 /* GTLUploadParameters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTLUploadParameters.m; path = Classes/GTLUploadParameters.m; sourceTree = "<group>"; };
+		2C678F831B2A7C42004CCAC3 /* GTLUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTLUtilities.h; path = Classes/GTLUtilities.h; sourceTree = "<group>"; };
+		2C678F841B2A7C42004CCAC3 /* GTLUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTLUtilities.m; path = Classes/GTLUtilities.m; sourceTree = "<group>"; };
+		2C678F851B2A7C42004CCAC3 /* GTMGatherInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTMGatherInputStream.h; path = Classes/GTMGatherInputStream.h; sourceTree = "<group>"; };
+		2C678F861B2A7C42004CCAC3 /* GTMGatherInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTMGatherInputStream.m; path = Classes/GTMGatherInputStream.m; sourceTree = "<group>"; };
+		2C678F871B2A7C42004CCAC3 /* GTMHTTPFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTMHTTPFetcher.h; path = Classes/GTMHTTPFetcher.h; sourceTree = "<group>"; };
+		2C678F881B2A7C42004CCAC3 /* GTMHTTPFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTMHTTPFetcher.m; path = Classes/GTMHTTPFetcher.m; sourceTree = "<group>"; };
+		2C678F891B2A7C42004CCAC3 /* GTMHTTPFetcherLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTMHTTPFetcherLogging.h; path = Classes/GTMHTTPFetcherLogging.h; sourceTree = "<group>"; };
+		2C678F8A1B2A7C42004CCAC3 /* GTMHTTPFetcherLogging.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTMHTTPFetcherLogging.m; path = Classes/GTMHTTPFetcherLogging.m; sourceTree = "<group>"; };
+		2C678F8B1B2A7C42004CCAC3 /* GTMHTTPFetcherService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTMHTTPFetcherService.h; path = Classes/GTMHTTPFetcherService.h; sourceTree = "<group>"; };
+		2C678F8C1B2A7C42004CCAC3 /* GTMHTTPFetcherService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTMHTTPFetcherService.m; path = Classes/GTMHTTPFetcherService.m; sourceTree = "<group>"; };
+		2C678F8D1B2A7C42004CCAC3 /* GTMHTTPFetchHistory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTMHTTPFetchHistory.h; path = Classes/GTMHTTPFetchHistory.h; sourceTree = "<group>"; };
+		2C678F8E1B2A7C42004CCAC3 /* GTMHTTPFetchHistory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTMHTTPFetchHistory.m; path = Classes/GTMHTTPFetchHistory.m; sourceTree = "<group>"; };
+		2C678F8F1B2A7C42004CCAC3 /* GTMHTTPUploadFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTMHTTPUploadFetcher.h; path = Classes/GTMHTTPUploadFetcher.h; sourceTree = "<group>"; };
+		2C678F901B2A7C42004CCAC3 /* GTMHTTPUploadFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTMHTTPUploadFetcher.m; path = Classes/GTMHTTPUploadFetcher.m; sourceTree = "<group>"; };
+		2C678F911B2A7C42004CCAC3 /* GTMMIMEDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTMMIMEDocument.h; path = Classes/GTMMIMEDocument.h; sourceTree = "<group>"; };
+		2C678F921B2A7C42004CCAC3 /* GTMMIMEDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTMMIMEDocument.m; path = Classes/GTMMIMEDocument.m; sourceTree = "<group>"; };
+		2C678F931B2A7C42004CCAC3 /* GTMReadMonitorInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTMReadMonitorInputStream.h; path = Classes/GTMReadMonitorInputStream.h; sourceTree = "<group>"; };
+		2C678F941B2A7C42004CCAC3 /* GTMReadMonitorInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTMReadMonitorInputStream.m; path = Classes/GTMReadMonitorInputStream.m; sourceTree = "<group>"; };
 		2EA402030C4A93FC2B574997 /* Pods-google-cloud-endpoints-client_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-google-cloud-endpoints-client_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		30CCE1D388E73F9AE2324CC5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F1752BD3EA8E9AEF2BB15BE /* Pods-google-cloud-endpoints-client_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-google-cloud-endpoints-client_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -174,6 +174,57 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C678F681B2A7BD9004CCAC3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2C678F691B2A7C42004CCAC3 /* GTLBase64.h */,
+				2C678F6A1B2A7C42004CCAC3 /* GTLBase64.m */,
+				2C678F6B1B2A7C42004CCAC3 /* GTLBatchQuery.h */,
+				2C678F6C1B2A7C42004CCAC3 /* GTLBatchQuery.m */,
+				2C678F6D1B2A7C42004CCAC3 /* GTLBatchResult.h */,
+				2C678F6E1B2A7C42004CCAC3 /* GTLBatchResult.m */,
+				2C678F6F1B2A7C42004CCAC3 /* GTLDateTime.h */,
+				2C678F701B2A7C42004CCAC3 /* GTLDateTime.m */,
+				2C678F711B2A7C42004CCAC3 /* GTLDefines.h */,
+				2C678F721B2A7C42004CCAC3 /* GTLErrorObject.h */,
+				2C678F731B2A7C42004CCAC3 /* GTLErrorObject.m */,
+				2C678F741B2A7C42004CCAC3 /* GTLFramework.h */,
+				2C678F751B2A7C42004CCAC3 /* GTLFramework.m */,
+				2C678F761B2A7C42004CCAC3 /* GTLJSONParser.h */,
+				2C678F771B2A7C42004CCAC3 /* GTLJSONParser.m */,
+				2C678F781B2A7C42004CCAC3 /* GTLObject.h */,
+				2C678F791B2A7C42004CCAC3 /* GTLObject.m */,
+				2C678F7A1B2A7C42004CCAC3 /* GTLQuery.h */,
+				2C678F7B1B2A7C42004CCAC3 /* GTLQuery.m */,
+				2C678F7C1B2A7C42004CCAC3 /* GTLRuntimeCommon.h */,
+				2C678F7D1B2A7C42004CCAC3 /* GTLRuntimeCommon.m */,
+				2C678F7E1B2A7C42004CCAC3 /* GTLService.h */,
+				2C678F7F1B2A7C42004CCAC3 /* GTLService.m */,
+				2C678F801B2A7C42004CCAC3 /* GTLTargetNamespace.h */,
+				2C678F811B2A7C42004CCAC3 /* GTLUploadParameters.h */,
+				2C678F821B2A7C42004CCAC3 /* GTLUploadParameters.m */,
+				2C678F831B2A7C42004CCAC3 /* GTLUtilities.h */,
+				2C678F841B2A7C42004CCAC3 /* GTLUtilities.m */,
+				2C678F851B2A7C42004CCAC3 /* GTMGatherInputStream.h */,
+				2C678F861B2A7C42004CCAC3 /* GTMGatherInputStream.m */,
+				2C678F871B2A7C42004CCAC3 /* GTMHTTPFetcher.h */,
+				2C678F881B2A7C42004CCAC3 /* GTMHTTPFetcher.m */,
+				2C678F891B2A7C42004CCAC3 /* GTMHTTPFetcherLogging.h */,
+				2C678F8A1B2A7C42004CCAC3 /* GTMHTTPFetcherLogging.m */,
+				2C678F8B1B2A7C42004CCAC3 /* GTMHTTPFetcherService.h */,
+				2C678F8C1B2A7C42004CCAC3 /* GTMHTTPFetcherService.m */,
+				2C678F8D1B2A7C42004CCAC3 /* GTMHTTPFetchHistory.h */,
+				2C678F8E1B2A7C42004CCAC3 /* GTMHTTPFetchHistory.m */,
+				2C678F8F1B2A7C42004CCAC3 /* GTMHTTPUploadFetcher.h */,
+				2C678F901B2A7C42004CCAC3 /* GTMHTTPUploadFetcher.m */,
+				2C678F911B2A7C42004CCAC3 /* GTMMIMEDocument.h */,
+				2C678F921B2A7C42004CCAC3 /* GTMMIMEDocument.m */,
+				2C678F931B2A7C42004CCAC3 /* GTMReadMonitorInputStream.h */,
+				2C678F941B2A7C42004CCAC3 /* GTMReadMonitorInputStream.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
 		3B6012A0A1D3C6ACA27D75C9 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -274,50 +325,7 @@
 		FEAB44206AF2B79C475377AB /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				2C678F101B2A7805004CCAC3 /* GTLDefines.h */,
-				2C678F111B2A7805004CCAC3 /* GTLObject.h */,
-				2C678F121B2A7805004CCAC3 /* GTLObject.m */,
-				2C678F131B2A7805004CCAC3 /* GTLQuery.h */,
-				2C678F141B2A7805004CCAC3 /* GTLQuery.m */,
-				2C678F151B2A7805004CCAC3 /* GTLBatchQuery.h */,
-				2C678F161B2A7805004CCAC3 /* GTLBatchQuery.m */,
-				2C678F171B2A7805004CCAC3 /* GTLService.h */,
-				2C678F181B2A7805004CCAC3 /* GTLService.m */,
-				2C678F191B2A7805004CCAC3 /* GTLBatchResult.h */,
-				2C678F1A1B2A7805004CCAC3 /* GTLBatchResult.m */,
-				2C678F1B1B2A7805004CCAC3 /* GTLUploadParameters.h */,
-				2C678F1C1B2A7805004CCAC3 /* GTLUploadParameters.m */,
-				2C678F1D1B2A7805004CCAC3 /* GTLDateTime.h */,
-				2C678F1E1B2A7805004CCAC3 /* GTLDateTime.m */,
-				2C678F1F1B2A7805004CCAC3 /* GTLErrorObject.h */,
-				2C678F201B2A7805004CCAC3 /* GTLErrorObject.m */,
-				2C678F211B2A7805004CCAC3 /* GTLRuntimeCommon.h */,
-				2C678F221B2A7805004CCAC3 /* GTLRuntimeCommon.m */,
-				2C678F231B2A7805004CCAC3 /* GTLFramework.h */,
-				2C678F241B2A7805004CCAC3 /* GTLFramework.m */,
-				2C678F251B2A7805004CCAC3 /* GTLJSONParser.h */,
-				2C678F261B2A7805004CCAC3 /* GTLJSONParser.m */,
-				2C678F271B2A7805004CCAC3 /* GTLTargetNamespace.h */,
-				2C678F281B2A7805004CCAC3 /* GTLUtilities.h */,
-				2C678F291B2A7805004CCAC3 /* GTLUtilities.m */,
-				2C678F2A1B2A7805004CCAC3 /* GTLBase64.h */,
-				2C678F2B1B2A7805004CCAC3 /* GTLBase64.m */,
-				2C678F2C1B2A7805004CCAC3 /* GTMHTTPFetcherService.h */,
-				2C678F2D1B2A7805004CCAC3 /* GTMHTTPFetcherService.m */,
-				2C678F2E1B2A7805004CCAC3 /* GTMHTTPFetcher.h */,
-				2C678F2F1B2A7805004CCAC3 /* GTMHTTPFetcher.m */,
-				2C678F301B2A7805004CCAC3 /* GTMHTTPFetcherLogging.h */,
-				2C678F311B2A7805004CCAC3 /* GTMHTTPFetcherLogging.m */,
-				2C678F321B2A7805004CCAC3 /* GTMHTTPFetchHistory.h */,
-				2C678F331B2A7805004CCAC3 /* GTMHTTPFetchHistory.m */,
-				2C678F341B2A7805004CCAC3 /* GTMHTTPUploadFetcher.h */,
-				2C678F351B2A7805004CCAC3 /* GTMHTTPUploadFetcher.m */,
-				2C678F361B2A7805004CCAC3 /* GTMGatherInputStream.h */,
-				2C678F371B2A7805004CCAC3 /* GTMGatherInputStream.m */,
-				2C678F381B2A7805004CCAC3 /* GTMMIMEDocument.h */,
-				2C678F391B2A7805004CCAC3 /* GTMMIMEDocument.m */,
-				2C678F3A1B2A7805004CCAC3 /* GTMReadMonitorInputStream.h */,
-				2C678F3B1B2A7805004CCAC3 /* GTMReadMonitorInputStream.m */,
+				2C678F681B2A7BD9004CCAC3 /* Classes */,
 			);
 			path = Pod;
 			sourceTree = "<group>";
@@ -329,30 +337,30 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C678F601B2A7805004CCAC3 /* GTMHTTPUploadFetcher.h in Headers */,
-				2C678F581B2A7805004CCAC3 /* GTMHTTPFetcherService.h in Headers */,
-				2C678F451B2A7805004CCAC3 /* GTLBatchResult.h in Headers */,
-				2C678F4F1B2A7805004CCAC3 /* GTLFramework.h in Headers */,
-				2C678F431B2A7805004CCAC3 /* GTLService.h in Headers */,
-				2C678F621B2A7805004CCAC3 /* GTMGatherInputStream.h in Headers */,
-				2C678F5C1B2A7805004CCAC3 /* GTMHTTPFetcherLogging.h in Headers */,
-				2C678F4B1B2A7805004CCAC3 /* GTLErrorObject.h in Headers */,
+				2C678FA81B2A7C42004CCAC3 /* GTLRuntimeCommon.h in Headers */,
 				13848A38234D4D92E512D0B5 /* Pods-google-cloud-endpoints-client_Tests-umbrella.h in Headers */,
-				2C678F5E1B2A7805004CCAC3 /* GTMHTTPFetchHistory.h in Headers */,
-				2C678F471B2A7805004CCAC3 /* GTLUploadParameters.h in Headers */,
-				2C678F4D1B2A7805004CCAC3 /* GTLRuntimeCommon.h in Headers */,
-				2C678F411B2A7805004CCAC3 /* GTLBatchQuery.h in Headers */,
-				2C678F3F1B2A7805004CCAC3 /* GTLQuery.h in Headers */,
-				2C678F641B2A7805004CCAC3 /* GTMMIMEDocument.h in Headers */,
-				2C678F3C1B2A7805004CCAC3 /* GTLDefines.h in Headers */,
-				2C678F3D1B2A7805004CCAC3 /* GTLObject.h in Headers */,
-				2C678F661B2A7805004CCAC3 /* GTMReadMonitorInputStream.h in Headers */,
-				2C678F531B2A7805004CCAC3 /* GTLTargetNamespace.h in Headers */,
-				2C678F511B2A7805004CCAC3 /* GTLJSONParser.h in Headers */,
-				2C678F561B2A7805004CCAC3 /* GTLBase64.h in Headers */,
-				2C678F541B2A7805004CCAC3 /* GTLUtilities.h in Headers */,
-				2C678F491B2A7805004CCAC3 /* GTLDateTime.h in Headers */,
-				2C678F5A1B2A7805004CCAC3 /* GTMHTTPFetcher.h in Headers */,
+				2C678FA41B2A7C42004CCAC3 /* GTLObject.h in Headers */,
+				2C678FB71B2A7C42004CCAC3 /* GTMHTTPFetcherService.h in Headers */,
+				2C678FA21B2A7C42004CCAC3 /* GTLJSONParser.h in Headers */,
+				2C678FB51B2A7C42004CCAC3 /* GTMHTTPFetcherLogging.h in Headers */,
+				2C678FA61B2A7C42004CCAC3 /* GTLQuery.h in Headers */,
+				2C678FA01B2A7C42004CCAC3 /* GTLFramework.h in Headers */,
+				2C678FB11B2A7C42004CCAC3 /* GTMGatherInputStream.h in Headers */,
+				2C678F971B2A7C42004CCAC3 /* GTLBatchQuery.h in Headers */,
+				2C678FAF1B2A7C42004CCAC3 /* GTLUtilities.h in Headers */,
+				2C678FAA1B2A7C42004CCAC3 /* GTLService.h in Headers */,
+				2C678F991B2A7C42004CCAC3 /* GTLBatchResult.h in Headers */,
+				2C678F9D1B2A7C42004CCAC3 /* GTLDefines.h in Headers */,
+				2C678FBD1B2A7C42004CCAC3 /* GTMMIMEDocument.h in Headers */,
+				2C678FBB1B2A7C42004CCAC3 /* GTMHTTPUploadFetcher.h in Headers */,
+				2C678F951B2A7C42004CCAC3 /* GTLBase64.h in Headers */,
+				2C678FBF1B2A7C42004CCAC3 /* GTMReadMonitorInputStream.h in Headers */,
+				2C678FAC1B2A7C42004CCAC3 /* GTLTargetNamespace.h in Headers */,
+				2C678FAD1B2A7C42004CCAC3 /* GTLUploadParameters.h in Headers */,
+				2C678F9B1B2A7C42004CCAC3 /* GTLDateTime.h in Headers */,
+				2C678F9E1B2A7C42004CCAC3 /* GTLErrorObject.h in Headers */,
+				2C678FB91B2A7C42004CCAC3 /* GTMHTTPFetchHistory.h in Headers */,
+				2C678FB31B2A7C42004CCAC3 /* GTMHTTPFetcher.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -486,28 +494,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C678F671B2A7805004CCAC3 /* GTMReadMonitorInputStream.m in Sources */,
-				2C678F401B2A7805004CCAC3 /* GTLQuery.m in Sources */,
-				2C678F501B2A7805004CCAC3 /* GTLFramework.m in Sources */,
-				2C678F461B2A7805004CCAC3 /* GTLBatchResult.m in Sources */,
-				2C678F421B2A7805004CCAC3 /* GTLBatchQuery.m in Sources */,
-				2C678F5B1B2A7805004CCAC3 /* GTMHTTPFetcher.m in Sources */,
-				2C678F521B2A7805004CCAC3 /* GTLJSONParser.m in Sources */,
-				2C678F3E1B2A7805004CCAC3 /* GTLObject.m in Sources */,
-				2C678F5D1B2A7805004CCAC3 /* GTMHTTPFetcherLogging.m in Sources */,
-				2C678F651B2A7805004CCAC3 /* GTMMIMEDocument.m in Sources */,
-				2C678F4A1B2A7805004CCAC3 /* GTLDateTime.m in Sources */,
-				2C678F551B2A7805004CCAC3 /* GTLUtilities.m in Sources */,
-				2C678F5F1B2A7805004CCAC3 /* GTMHTTPFetchHistory.m in Sources */,
-				2C678F571B2A7805004CCAC3 /* GTLBase64.m in Sources */,
-				2C678F631B2A7805004CCAC3 /* GTMGatherInputStream.m in Sources */,
-				2C678F4E1B2A7805004CCAC3 /* GTLRuntimeCommon.m in Sources */,
-				2C678F441B2A7805004CCAC3 /* GTLService.m in Sources */,
-				2C678F4C1B2A7805004CCAC3 /* GTLErrorObject.m in Sources */,
+				2C678FC01B2A7C42004CCAC3 /* GTMReadMonitorInputStream.m in Sources */,
+				2C678FA31B2A7C42004CCAC3 /* GTLJSONParser.m in Sources */,
+				2C678F961B2A7C42004CCAC3 /* GTLBase64.m in Sources */,
+				2C678FB21B2A7C42004CCAC3 /* GTMGatherInputStream.m in Sources */,
+				2C678FBC1B2A7C42004CCAC3 /* GTMHTTPUploadFetcher.m in Sources */,
+				2C678FBA1B2A7C42004CCAC3 /* GTMHTTPFetchHistory.m in Sources */,
+				2C678FA51B2A7C42004CCAC3 /* GTLObject.m in Sources */,
+				2C678FB41B2A7C42004CCAC3 /* GTMHTTPFetcher.m in Sources */,
+				2C678FA91B2A7C42004CCAC3 /* GTLRuntimeCommon.m in Sources */,
+				2C678FBE1B2A7C42004CCAC3 /* GTMMIMEDocument.m in Sources */,
+				2C678F981B2A7C42004CCAC3 /* GTLBatchQuery.m in Sources */,
+				2C678FB61B2A7C42004CCAC3 /* GTMHTTPFetcherLogging.m in Sources */,
+				2C678FA11B2A7C42004CCAC3 /* GTLFramework.m in Sources */,
 				0D5C0448A0A93DB5A0F822D4 /* Pods-google-cloud-endpoints-client_Tests-dummy.m in Sources */,
-				2C678F591B2A7805004CCAC3 /* GTMHTTPFetcherService.m in Sources */,
-				2C678F611B2A7805004CCAC3 /* GTMHTTPUploadFetcher.m in Sources */,
-				2C678F481B2A7805004CCAC3 /* GTLUploadParameters.m in Sources */,
+				2C678FAB1B2A7C42004CCAC3 /* GTLService.m in Sources */,
+				2C678FA71B2A7C42004CCAC3 /* GTLQuery.m in Sources */,
+				2C678F9F1B2A7C42004CCAC3 /* GTLErrorObject.m in Sources */,
+				2C678F9A1B2A7C42004CCAC3 /* GTLBatchResult.m in Sources */,
+				2C678FAE1B2A7C42004CCAC3 /* GTLUploadParameters.m in Sources */,
+				2C678FB01B2A7C42004CCAC3 /* GTLUtilities.m in Sources */,
+				2C678FB81B2A7C42004CCAC3 /* GTMHTTPFetcherService.m in Sources */,
+				2C678F9C1B2A7C42004CCAC3 /* GTLDateTime.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
