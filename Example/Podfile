@@ -1,0 +1,9 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+
+target 'google-cloud-endpoints-client_Tests', :exclusive => true do
+  pod "google-cloud-endpoints-client", :path => "../"
+
+  
+end
