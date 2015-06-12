@@ -7,11 +7,9 @@ Pod::Spec.new do |s|
                        I am tried of copying code in from the project
                        DESC
   s.homepage         = "https://github.com/rockwotj/google-cloud-endpoints-client"
-
   s.license          = 'MIT'
   s.author           = { "rockwotj" => "rockwotj@gmail.com" }
   s.source           = { :git => "https://github.com/rockwotj/google-cloud-endpoints-client.git", :tag => s.version.to_s }
-
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
