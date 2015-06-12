@@ -1,12 +1,3 @@
-#
-# Be sure to run `pod lib lint google-cloud-endpoints-client.podspec' to ensure this is a
-# valid spec and remove all comments before submitting the spec.
-#
-# Any lines starting with a # are optional, but encouraged
-#
-# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
   s.name             = "google-cloud-endpoints-client"
   s.version          = "0.0.3"
@@ -16,11 +7,11 @@ Pod::Spec.new do |s|
                        I am tried of copying code in from the project
                        DESC
   s.homepage         = "https://github.com/rockwotj/google-cloud-endpoints-client"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+
   s.license          = 'MIT'
   s.author           = { "rockwotj" => "rockwotj@gmail.com" }
   s.source           = { :git => "https://github.com/rockwotj/google-cloud-endpoints-client.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
