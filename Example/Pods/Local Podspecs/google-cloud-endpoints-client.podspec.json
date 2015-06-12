@@ -1,0 +1,25 @@
+{
+  "name": "google-cloud-endpoints-client",
+  "version": "0.1.0",
+  "summary": "A short description of google-cloud-endpoints-client.",
+  "description": "                       An optional longer description of google-cloud-endpoints-client\n\n                       * Markdown format.\n                       * Don't worry about the indent, we strip it!\n",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/google-cloud-endpoints-client",
+  "license": "MIT",
+  "authors": {
+    "rockwotj": "rockwotj@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/google-cloud-endpoints-client.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "google-cloud-endpoints-client": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}

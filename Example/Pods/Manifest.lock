@@ -1,0 +1,14 @@
+PODS:
+  - google-cloud-endpoints-client (0.1.0)
+
+DEPENDENCIES:
+  - google-cloud-endpoints-client (from `../`)
+
+EXTERNAL SOURCES:
+  google-cloud-endpoints-client:
+    :path: ../
+
+SPEC CHECKSUMS:
+  google-cloud-endpoints-client: ed4a5c45dc89cd7d6b63ac71172a951684c9a304
+
+COCOAPODS: 0.37.2

@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_google_cloud_endpoints_client_Tests_google_cloud_endpoints_client : NSObject
+@end
+@implementation PodsDummy_Pods_google_cloud_endpoints_client_Tests_google_cloud_endpoints_client
+@end

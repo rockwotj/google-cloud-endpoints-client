@@ -10,18 +10,16 @@
 Pod::Spec.new do |s|
   s.name             = "google-cloud-endpoints-client"
   s.version          = "0.1.0"
-  s.summary          = "A short description of google-cloud-endpoints-client."
+  s.summary          = "Google Cloud Endpoints library wrapped in a Pod. I DON'T OWN OR MAINTAIN THIS CODE'"
   s.description      = <<-DESC
-                       An optional longer description of google-cloud-endpoints-client
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+                       The Google Cloud Endpoints iOS library copied from svn and put in a cocoapod because
+                       I am tried of copying code in from the project
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/google-cloud-endpoints-client"
+  s.homepage         = "https://github.com/rockwotj/google-cloud-endpoints-client"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "rockwotj" => "rockwotj@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/google-cloud-endpoints-client.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/rockwotj/google-cloud-endpoints-client.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'
