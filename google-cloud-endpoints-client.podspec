@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "google-cloud-endpoints-client"
-  s.version          = "0.0.2"
+  s.version          = "0.0.3"
   s.summary          = "Google Cloud Endpoints library wrapped in a Pod. I DON'T OWN OR MAINTAIN THIS CODE'"
   s.description      = <<-DESC
                        The Google Cloud Endpoints iOS library copied from svn and put in a cocoapod because
@@ -29,8 +29,5 @@ Pod::Spec.new do |s|
   s.resource_bundles = {
     'google-cloud-endpoints-client' => ['Pod/Assets/*.png']
   }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.compiler_flags = '-fno-objc-arc'
 end
