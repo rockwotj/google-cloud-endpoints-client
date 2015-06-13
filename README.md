@@ -1,4 +1,4 @@
-# google-cloud-endpoints-client
+# Google Cloud Endpoints Client Cocoa Pod
 
 This is a CocoaPod of the [GTL Client library](https://code.google.com/p/google-api-objectivec-client/) that is used in Google Cloud Endpoint's generated client code. This is basically a way to automate [this](https://cloud.google.com/appengine/docs/python/endpoints/consume_ios#Python_Adding_required_files_to_your_iOS_project) step in the Google Cloud Endpoints setup process.
 
@@ -15,7 +15,7 @@ pod 'google-cloud-endpoints-client', :git => 'https://github.com/rockwotj/google
 
 ## How to set up Google Cloud Endpoints with this pod
 
-These steps are generalized from the iOS course [here](http://www.rosebotics.org/courses), which are generalized versions of [Google's steps](https://developers.google.com/appengine/docs/python/endpoints/consume_ios).
+These steps are repeated from the iOS course [here](http://www.rosebotics.org/courses), which are generalized versions of [Google's steps](https://developers.google.com/appengine/docs/python/endpoints/consume_ios).
 
 ### Step 1 - Add two frameworks
 The first step is easy.  Add two frameworks to the project:
@@ -76,4 +76,4 @@ Tyler Rockwood (rockwotj)
 
 ## License
 
-google-cloud-endpoints-client is available under the MIT license. See the LICENSE file for more info.
+Google Cloud Endpoints Client is available under the MIT license. See the LICENSE file for more info.
