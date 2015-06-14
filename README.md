@@ -1,6 +1,6 @@
 # Google Cloud Endpoints Client Cocoa Pod
 
-This is a CocoaPod of the [GTL Client library](https://code.google.com/p/google-api-objectivec-client/) that is used in Google Cloud Endpoint's generated client code. This is basically a way to automate [this](https://cloud.google.com/appengine/docs/python/endpoints/consume_ios#Python_Adding_required_files_to_your_iOS_project) step in the Google Cloud Endpoints setup process.
+This is a CocoaPod of the [GTL Client library](https://code.google.com/p/google-api-objectivec-client/) that is used in Google Cloud Endpoint's generated client code. This is basically a way to automate [this](https://cloud.google.com/appengine/docs/python/endpoints/consume_ios#Python_Adding_required_files_to_your_iOS_project) step in the Google Cloud Endpoints setup process. This pod is automatically updated once a week, via a [script](https://gist.github.com/rockwotj/77dcb7fc64c64cd21f4c).
 
 I hope this makes your life a little easier!
 
