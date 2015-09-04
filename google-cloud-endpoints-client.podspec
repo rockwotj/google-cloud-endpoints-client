@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "google-cloud-endpoints-client"
-  s.version          = "0.0.450"
+  s.version          = "0.0.457"
   s.summary          = "Google Cloud Endpoints library wrapped in a Pod. I DON'T OWN OR MAINTAIN THIS CODE'"
   s.description      = <<-DESC
                        The Google Cloud Endpoints iOS library copied from svn and put in a cocoapod because
